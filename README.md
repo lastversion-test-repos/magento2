@@ -1,3 +1,8 @@
+## `lastversion` edge case description
+
+Patch release `2.3.5-p2` is tagged after the actual latest release, `2.4.0`.
+The `2.4.0` should be returned by `lastversion`, not the `2.3.5-p2`.
+
 <p align="center">
     <a href="https://magento.com">
         <img src="https://static.magento.com/sites/all/themes/magento/logo.svg" width="300px" alt="Magento Commerce" />
